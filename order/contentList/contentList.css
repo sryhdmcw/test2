@@ -1,0 +1,106 @@
+.order-item{
+    border-top: 0.347rem solid #efefef;
+}
+.order-item .order-item-inner{
+    display: flex;
+    padding-bottom: 0.48rem;
+    border-bottom: 0.027rem solid #e0e0e0;
+ }
+.order-item .item-img{
+    width: 1.067rem;
+    height: 1.067rem;
+    margin-top: 0.213rem;
+    margin-left: 0.427rem;
+    border-radius: 50%;
+    display: block;
+}
+.order-item .item-right{
+    flex: 1;
+    margin-left: 0.4rem;
+    font-size: 0.373rem;
+}
+.order-item .item-top{
+
+    height: 1.467rem;
+    padding-top: 0.053rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.order-item .order-name{
+     font-size: 0.427rem;
+     width: 4.8rem;
+     height: 0.427rem;
+     font-weight: bold;
+
+ }
+
+.order-item .arrow{
+    width: 0.213rem;
+    height: 0.213rem;
+    border: 1px solid #999;
+    border-width:1px 1px 0 0;
+    transform: rotate(450deg);
+    -webkit-transform: rotate(45deg);
+
+}
+.order-item .order-state{
+    font-size: 0.3733rem;
+    margin-left: 1.066667rem;
+    color: #999;
+}
+.order-item .product-item{
+    font-size:0.37333rem;
+    color: #666;
+    margin-top: 0.32rem;
+
+}
+.order-item .p-count {
+    float: right;
+    margin-right: 0.4rem;
+}
+.order-item .p-total-count{
+    float: left;
+    margin-left: 0.4rem;
+}
+.p-total-count{
+    float: right;
+    margin-left:0.4rem ;
+    font-size: 0.32rem;
+}
+.order-item .total-price{
+    font-size: 0.373rem;
+    color: #151515;
+    margin-left: 0.05333rem;
+    letter-spacing: 0.027rem;
+
+}
+.order-item .evaluation{
+    padding-top: 0.266667rem;
+    padding-bottom: 0.2666667rem;
+}
+.order-item .evaluation-btn{
+    float: right;
+    width: 2.6666667rem;
+    height: 0.8533333rem;
+    color: #000000;
+    font-weight: 700;
+    background-color: #c4272a;
+    font-size: 0.3777333rem;
+    line-height: 0.8533333rem;
+    text-align: center;
+    margin-right: 0.267rem;
+
+}
+.loading{
+    padding-bottom: 0.26667rem;
+    padding-top: 0.2666667rem;
+    font-size: 0.42667rem;
+    text-align: center;
+    color: #ccc;
+
+}
+.wrap{
+    padding-bottom: 2.6666667rem
+;
+}

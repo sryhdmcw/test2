@@ -1,0 +1,77 @@
+.search-bar{
+    width: 100%;
+    height: 1.067rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.213rem;
+}
+
+.search-bar .search-location{
+    margin-right: 0.533rem;
+    border-radius: 0.347rem;
+    background-color: rgba(0,0,0,0.33);
+    width: 2.453rem;
+    height: 0.747rem;
+}
+.search-bar .search-location-icon{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.533rem;
+    vertical-align:0.213rem;
+    margin-left: 0.16rem;
+    background-image: url('../img/locationIcon.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.search-bar .search-location-text{
+    position: relative;
+    display: inline-block;
+    font-size: 0.373rem;
+    color: white;
+    vertical-align:0.32rem;
+    margin-left: -0.053rem;
+    top: -0.053rem;
+    /*margin-right: -0.08rem;*/
+}
+.search-bar .search-location-text::after{
+    content: ' ';
+    display: block;
+    width: 0.373rem;
+    height: 0.373rem;
+    background-image: url("../img/arrowIcon.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    right: -0.427rem;
+    top: 0;
+}
+/*搜索框*/
+.search-bar .search-container{
+position: relative;
+    width: 4.533rem;
+    height: 0.8rem;
+    background-color: #fff;
+    border-radius:0.533rem ;
+}
+.search-bar .search-container::before{
+    content: ' ';
+    display: block;
+    width: 0.373rem;
+    height: 0.373rem;
+    background-image: url('../img/searchIcon.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    top:0.187rem;
+    left: 0.267rem;
+    position: absolute;
+}
+.search-bar .place-holder{
+    color: #a9a9a9;
+    font-size: 0.373rem;
+    height: 100%;
+    line-height: 0.8rem;
+    margin-left: 0.747rem;
+}
