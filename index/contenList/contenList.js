@@ -126,7 +126,7 @@ if (data.brand_type){
         $('.list-content').on('click','.item-title',function () {
            console.log($(this).text());
            if($(this).text()==="小哥好滋味"){
-               $(window).attr('location','https://sryhdmcw.github.io/mdxe2/menu/menu.html');
+               $(window).attr('location','https://sryhdmcw.github.io/test2/menu/menu.html');
            }
         });
     }
